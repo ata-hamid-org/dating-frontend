@@ -1,0 +1,13 @@
+.ShadowBox {
+  position: absolute;
+  inset: 0;
+  background-color: #0006;
+}
+
+.ShadowBox::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to bottom, black 0, #0000 180px);
+  background-attachment: fixed;
+}

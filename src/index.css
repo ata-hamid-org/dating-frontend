@@ -1,0 +1,59 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: fallback;
+  font-family: ProximaNova;
+  src: url(assets/fonts/ProximaNova-400.woff2) format("woff2"),
+    url(assets/fonts/ProximaNova-400.woff) format("woff");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: ProximaNova;
+  font-weight: 800;
+  src: url(assets/fonts/ProximaNova-800.woff2) format("woff2"),
+    url(assets/fonts/ProximaNova-800.woff) format("woff");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: ProximaNova;
+  font-style: normal;
+  font-weight: 600;
+  src: url(assets/fonts/ProximaNova-600.woff2) format("woff2"),
+    url(assets/fonts/ProximaNova-600.woff) format("woff");
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: ProximaNova;
+  font-style: italic;
+  font-weight: 800;
+  src: url(assets/fonts/ProximaNova-Italic.woff2) format("woff2"),
+    url(assets/fonts/ProximaNova-Italic.woff) format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: ProximaNova;
+  font-style: normal;
+  font-weight: 500;
+  src: url(assets/fonts/ProximaNova-500.woff2) format("woff2"),
+    url(assets/fonts/ProximaNova-500.woff) format("woff");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
